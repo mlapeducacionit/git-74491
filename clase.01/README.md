@@ -117,4 +117,9 @@ git log --oneline # Version resumen
 
 Creo normalmente en el directorio raíz del proyecto el archivo **.gitignore**
 
+## .gitkeep: Para darle seguimiento a carpetas vacias
 
+Porque git no le da seguimiento y guarda en el repositorio (LR) las carpetas vacías
+
+
+ 
