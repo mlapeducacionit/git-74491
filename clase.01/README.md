@@ -105,3 +105,11 @@ git restore --staged clase.01/README.md
 git show <hash>
 git show 60776
 ```
+
+## Mostrar el historico de commit 
+
+```sh
+git log # Version larga.
+git log --oneline # Version resumen
+```
+
