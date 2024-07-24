@@ -113,3 +113,8 @@ git log # Version larga.
 git log --oneline # Version resumen
 ```
 
+## .gitignore: Para ignorar archivos que no deseo que esten en el repositorio
+
+Creo normalmente en el directorio raíz del proyecto el archivo **.gitignore**
+
+
