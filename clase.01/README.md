@@ -91,3 +91,10 @@ git diff
 ## Areas del repositorio de GIT
 
 ![Alt text](image.png)
+
+## Quitar de la area de staging area
+
+```sh
+git restore --staged <nombre-del-archivo>
+git restore --staged clase.01/README.md
+```
