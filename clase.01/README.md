@@ -60,7 +60,6 @@ git status
 
 * Local Repo (Area de validación de cambios, donde se registran las modificaciones realizadas) Donde van a estar todas las fotos (commit) que vaya sacando.
 
-
 ## Estados de los archivos
 
 * Untracked (Sin seguimiento) => archivos que no se agregaron al index/stage y por consecuente no se les da seguimiento.
@@ -74,4 +73,21 @@ Marca el archivo y los cambios para que formen en un futuro parte de la siguient
 ```sh
 git add <nombre-archivo>
 git add clase.01/README.md
+git add . #
 ```
+
+## Guarda en el repositorio una instantanea. Sacar una foto/commit
+
+```sh
+git commit -m "Mensaje descriptivo de lo que se hizo"
+```
+
+## Para comparar el Working Directory y el Local Repo
+
+```sh
+git diff
+```
+
+## Areas del repositorio de GIT
+
+![Alt text](image.png)
