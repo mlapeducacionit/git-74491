@@ -98,3 +98,10 @@ git diff
 git restore --staged <nombre-del-archivo>
 git restore --staged clase.01/README.md
 ```
+
+## Como ver lo que paso en un commit
+
+```sh
+git show <hash>
+git show 60776
+```
