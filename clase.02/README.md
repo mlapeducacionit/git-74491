@@ -61,3 +61,17 @@ git branch <nombre-rama>
 git branch feature/navbar
 git branch feature/footer
 ```
+
+## Moverme entre ramas
+
+```
+git switch <nombre-rama>
+git switch feature/navbar
+```
+
+## Crear y moverme
+
+```sh
+git switch -c <nombre-rama>
+git switch -c feature/ramas
+```
