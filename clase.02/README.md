@@ -45,3 +45,6 @@ git diff 6ceff27 3760d7e
 git add .
 git commit --amend
 ```
+
+# Ramas (Branches)
+## Nos permiten trabajar en el proyecto de manera auxiliar.
