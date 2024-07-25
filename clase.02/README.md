@@ -61,3 +61,13 @@ git branch <nombre-rama>
 git branch feature/navbar
 git branch feature/footer
 ```
+
+## Visualizacion de ramas en VSC
+
+* mhutchie.git-graph
+
+## Aplicaciones visuales para la gestión de Repositorios de GIT
+
+* GitHub Desktop: <https://github.com/apps/desktop>
+* GitKraken: <https://www.gitkraken.com/>
+* Alternatives: <https://alternativeto.net/software/github-desktop/>
