@@ -53,3 +53,11 @@ Nos permiten trabajar en el proyecto de manera auxiliar.
 ```sh
 git branch
 ```
+
+## Crear un rama
+
+```sh
+git branch <nombre-rama>
+git branch feature/navbar
+git branch feature/footer
+```
