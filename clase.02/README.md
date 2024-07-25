@@ -2,6 +2,14 @@
 
 ## Repasando dinamica de trabajo base de git
 
+## Listar una cantidad especifica de commits en el log
+
+```sh
+git log --oneline -<cantidad-commits>
+git log --oneline -5
+git log --oneline -10
+```
+
 ### Haciendo un commit. Pasos
 
 1. Hacer un status para ver en que estado están los archivos que quiero sean parte del commit
