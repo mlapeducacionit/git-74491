@@ -71,3 +71,13 @@ git branch feature/footer
 * GitHub Desktop: <https://github.com/apps/desktop>
 * GitKraken: <https://www.gitkraken.com/>
 * Alternatives: <https://alternativeto.net/software/github-desktop/>
+
+
+# Fusiones (Merge) de ramas (Branches)
+
+## Comparando contenido de las diferentes ramas
+
+```sh
+git diff <nombre-con-cual-quiero-comparme-la-rama-actual>
+git diff <nombre-rama> <nombre-rama>
+```
