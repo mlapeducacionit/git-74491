@@ -16,13 +16,15 @@ git stash
 git stash -m "Empezando a trabajar con stashes"
 ```
 
-#### Aplicar un stash (el últimos)
+#### Aplicar un stash (el último)
+Si lo aplica. Borra el último stash. Si hay conflicto. Lo aplica y no lo borra.
 
 ```sh
 git stash pop
 ```
 
 #### Aplicación de un stash en particular
+Lo aplica pero nunca borra el stash
 
 ```sh
 git stash apply <numero de stash>
