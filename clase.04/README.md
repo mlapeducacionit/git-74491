@@ -95,3 +95,9 @@ Va a borrar el commit o los commits seleccionados y descartar los cambios dentro
 ```sh
 git reset --hard <hash>
 ```
+
+## Para ver la historia del principio de lo tiempos y todos los cambios
+
+```sh
+git reflog
+```
