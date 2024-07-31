@@ -43,3 +43,28 @@ git stash drop
 git stash drop <numero-stash>
 git stash drop 5 # stash@{5}
 ```
+
+# Git alias
+Me permite crear alias de comandos para en vez de estar escribiendo el comando y sus subcomandos hacerlo a traves de una letra o una palabra.
+
+## Creando un alias
+
+```sh
+git config --global alias.<alias-elegido> "<comando-de-git-sin-la-palabra-git>"
+git config --global alias.s "status --short"
+git config --global alias.c "commit -m"
+git config --global alias.l "log --oneline"
+git config --global alias.ll "log --oneline --all --graph --decorate"
+```
+
+## Quitar un alias
+
+```sh
+git config --global --unset alias.ll # me quita el alias ll
+```
+
+## Listar alias configurados
+
+```sh
+git config --global --get-regexp alias
+```
