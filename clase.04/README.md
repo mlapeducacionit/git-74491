@@ -101,3 +101,7 @@ git reset --hard <hash>
 ```sh
 git reflog
 ```
+
+# Trabajar en proyectos Open Source (Fork y Pull Request)
+
+
