@@ -28,3 +28,9 @@ git stash pop
 git stash apply <numero de stash>
 git stash apply 1 # stash@{1}
 ```
+
+### Borrar un stash (el último)
+
+```sh
+git stash drop 
+```
