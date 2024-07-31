@@ -34,3 +34,10 @@ git stash apply 1 # stash@{1}
 ```sh
 git stash drop 
 ```
+
+### Borrar un stash en particular
+
+```sh
+git stash drop <numero-stash>
+git stash drop 5 # stash@{5}
+```
