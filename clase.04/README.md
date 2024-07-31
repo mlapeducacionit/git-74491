@@ -21,3 +21,10 @@ git stash -m "Empezando a trabajar con stashes"
 ```sh
 git stash pop
 ```
+
+#### Aplicación de un stash en particular
+
+```sh
+git stash apply <numero de stash>
+git stash apply 1 # stash@{1}
+```
