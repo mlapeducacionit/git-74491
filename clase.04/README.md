@@ -11,8 +11,13 @@ git stash list
 
 #### Crear un stash
 
-```
+```sh
 git stash
 git stash -m "Empezando a trabajar con stashes"
 ```
 
+#### Aplicar un stash (el últimos)
+
+```sh
+git stash pop
+```
