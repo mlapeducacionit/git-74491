@@ -68,3 +68,30 @@ git config --global --unset alias.ll # me quita el alias ll
 ```sh
 git config --global --get-regexp alias
 ```
+
+# GIT RESET
+Me permite deshacer cambios en el árbol de trabajo y en el área de preparación (Staging Área) de git
+
+## 3 tipos de resets
+
+1. Reset Soft
+Va a borrar el commit o los commits seleccionados y arrojar los cambios al staging area
+
+```sh
+git reset --soft <hash>
+```
+
+2. Reset Mixed
+Va a borrar el commit o los commits seleccionados y arrojar los cambios al working directory
+
+```sh
+git reset <hash>
+git reset --mixed <hash>
+```
+
+3. Reset Hard
+Va a borrar el commit o los commits seleccionados y descartar los cambios dentro de esos commit.
+
+```sh
+git reset --hard <hash>
+```
